@@ -1,6 +1,6 @@
 cask "quotari" do
-  version "0.4.2"
-  sha256 "a73724152a814486e4341fe2da5655fa552da85571065cdb869121b5d48dd412"
+  version "0.4.3"
+  sha256 "4954678041b5fd3098c1937516b6a8f057d4dae75b992af59036b52b3e3289a7"
 
   url "https://github.com/WhiteHyun/Quotari/releases/download/v#{version}/Quotari-#{version}.zip"
   name "Quotari"
