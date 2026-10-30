@@ -1,6 +1,6 @@
 cask "quotari" do
-  version "0.6.0"
-  sha256 "e8a93fb5862be91662c61fe9ddf03ddfc54fb94a802e73d00fe07e9711a822fd"
+  version "0.7.0"
+  sha256 "38718ecb1bf4184fe2bda0662f5aaa55061e3cf3c806055a57c45b9941f58ddb"
 
   url "https://github.com/WhiteHyun/Quotari/releases/download/v#{version}/Quotari-#{version}.zip"
   name "Quotari"
@@ -16,6 +16,7 @@ cask "quotari" do
   depends_on macos: :sonoma
 
   app "Quotari.app"
+  binary "#{appdir}/Quotari.app/Contents/Helpers/quotari"
 
   zap trash: [
     "~/Library/Application Support/Quotari",
